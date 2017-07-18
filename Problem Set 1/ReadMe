@@ -1,0 +1,13 @@
+=======dependency==========
+CUDA 8.0
+Opencv3.1.0
+
+=================how to run=============
+cmake .
+make
+./HW1 <your color image>
+
+
+The program is simply converting an color image to a grey image and show the difference image between the cpu process and gpu process.
+You may learn the skills about mapping of threads and compiling configurations.
+
