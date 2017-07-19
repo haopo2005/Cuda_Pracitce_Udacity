@@ -1,0 +1,16 @@
+=======dependency==========
+ubuntu 16.04
+CUDA 8.0
+Opencv3.1.0
+
+=================how to run=============
+cmake .
+make
+./HW2 <your color image>
+
+
+The program is simply blur an color image with 9*9 mask and show the difference image between the cpu process and gpu process.
+You may learn the skills about mapping of threads and compiling configurations.
+
+The current process is not the fastest way. If you have more efficient solution, please tell me.
+
