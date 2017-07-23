@@ -1,0 +1,18 @@
+=======dependency==========
+ubuntu 16.04
+CUDA 8.0
+Opencv3.1.0
+
+=================how to run=============
+cmake .
+make
+./HW3 <your color image>
+
+
+The program will enhance your color image with histogram equalization algortihm and then show the difference image between the cpu mode and gpu mode.
+You may learn the skills about mapping of threads and compiling configurations.
+
+However,
+the problem set 3 download from github is inconsistent with the udacity test online. The cpu-mode codes and test sample images are totally different. 
+Anyway, I have passed the exam of lesson 3.
+
